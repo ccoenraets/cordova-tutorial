@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="assets/topcoat/css/topcoat-mobile-light.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/pageslider.css" rel="stylesheet">
+</head>
+<body>
+
+<script id="home-tpl" type="text/x-handlebars-template">
+    <div class="topcoat-navigation-bar">
+        <div class="topcoat-navigation-bar__item center full">
+            <h1 class="topcoat-navigation-bar__title">Employee Directory</h1>
+        </div>
+    </div>
+    <div class="search-bar">
+        <input type="search" placeholder="search" class="topcoat-search-input search-key">
+    </div>
+    <div class="topcoat-list__container scroller">
+        <ul class="topcoat-list list employee-list"></ul>
+    </div>
+</script>
+
+<script id="employee-li-tpl" type="text/x-handlebars-template">
+    {{#.}}
+    <li class="topcoat-list__item">
+        <a href="#employees/{{id}}">
+            <img src="assets/pics/{{pic}}">
+            <p>{{firstName}} {{lastName}}</p>
+            <p>{{title}}</p>
+            <span class="chevron"></span><span class="count">{{reports}}</span>
+        </a>
+    </li>
+    {{/.}}
+</script>
+
+<script id="employee-tpl" type="text/x-handlebars-template">
+    <div class="topcoat-navigation-bar">
+        <div class="topcoat-navigation-bar__item left quarter">
+            <a class="topcoat-icon-button--quiet back-button" href="#">
+                <span class="topcoat-icon topcoat-icon--back"></span>
+            </a>
+        </div>
+        <div class="topcoat-navigation-bar__item center half">
+            <h1 class="topcoat-navigation-bar__title">Employee</h1>
+        </div>
+    </div>
+    <div class='details'>
+        <img src="assets/pics/{{pic}}" class="employee-image">
+        <h1>{{firstName}} {{lastName}}</h1>
+        <h2>{{title}}</h2>
+        <h2>{{city}}</h2>
+        <div class="topcoat-list__container scroller">
+            <ul class="topcoat-list list actions">
+                {{#if managerId}}
+                <li class="topcoat-list__item"><a href="#employees/{{managerId}}"><p>View Manager</p><p>{{managerName}}</p><div class="action-icon icon-manager"/></a></li>
+                {{/if}}
+                <li class="topcoat-list__item"><a href="tel:{{officePhone}}"><p>Call Office</p><p>{{officePhone}}</p><div class="action-icon icon-call"/></a></li>
+                <li class="topcoat-list__item"><a href="tel:{{cellPhone}}"><p>Call Cell</p><p>{{cellPhone}}</p><div class="action-icon icon-call"/></a></li>
+                <li class="topcoat-list__item"><a href="sms:{{cellPhone}}"><p>SMS</p><p>{{cellPhone}}</p><div class="action-icon icon-sms"/></a></li>
+                <li class="topcoat-list__item"><a href="mailto:{{email}}"><p>Email</p><p>{{email}}</p><div class="action-icon icon-mail"/></a></li>
+                <li class="topcoat-list__item"><a href="#" class="add-location-btn"><p>Add Location</p></a></li>
+                <li class="topcoat-list__item"><a href="#" class="add-contact-btn"><p>Add to Contacts</p></a></li>
+                <li class="topcoat-list__item"><a href="#" class="change-pic-btn"><p>Change Picture</p></a></li>
+            </ul>
+        </div>
+    </div>
+</script>
+
+<script src="cordova.js"></script>
+<script src="lib/jquery.js"></script>
+<script src="lib/fastclick.js"></script>
+<script src="lib/handlebars.js"></script>
+<script src="lib/pageslider.js"></script>
+<script src="js/adapters/memory-adapter.js"></script>
+<script src="js/HomeView.js"></script>
+<script src="js/EmployeeView.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>

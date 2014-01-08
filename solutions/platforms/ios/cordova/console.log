@@ -1,0 +1,45 @@
+2014-01-06 21:42:15.323 Workshop[12127:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 21:42:15.330 Workshop[12127:80b] Unlimited access to network resources
+2014-01-06 21:42:15.442 Workshop[12127:80b] Resetting plugins due to page load.
+2014-01-06 21:42:15.489 Workshop[12127:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 21:42:15.515 Workshop[12127:80b] Received Event: deviceready
+2014-01-06 21:57:58.158 Workshop[12859:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 21:57:58.166 Workshop[12859:80b] Unlimited access to network resources
+2014-01-06 21:57:58.263 Workshop[12859:80b] Resetting plugins due to page load.
+2014-01-06 21:57:58.349 Workshop[12859:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:11:04.763 Workshop[13443:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:11:04.768 Workshop[13443:80b] Unlimited access to network resources
+2014-01-06 22:11:04.872 Workshop[13443:80b] Resetting plugins due to page load.
+2014-01-06 22:11:04.931 Workshop[13443:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:11:11.017 Workshop[13443:80b] THREAD WARNING: ['Notification'] took '13.500977' ms. Plugin should use a background thread.
+2014-01-06 22:15:27.260 Workshop[14010:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:15:27.265 Workshop[14010:80b] Unlimited access to network resources
+2014-01-06 22:15:27.378 Workshop[14010:80b] Resetting plugins due to page load.
+2014-01-06 22:15:27.429 Workshop[14010:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:15:34.343 Workshop[14010:80b] THREAD WARNING: ['Notification'] took '13.408936' ms. Plugin should use a background thread.
+Terminating in response to SpringBoard's termination.
+2014-01-06 22:33:56.636 Workshop[14602:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:33:56.644 Workshop[14602:80b] Unlimited access to network resources
+2014-01-06 22:33:56.743 Workshop[14602:80b] Resetting plugins due to page load.
+2014-01-06 22:33:56.867 Workshop[14602:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:34:32.134 Workshop[15167:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:34:32.142 Workshop[15167:80b] Unlimited access to network resources
+2014-01-06 22:34:32.245 Workshop[15167:80b] Resetting plugins due to page load.
+2014-01-06 22:34:32.385 Workshop[15167:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:35:33.878 Workshop[15732:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:35:33.886 Workshop[15732:80b] Unlimited access to network resources
+2014-01-06 22:35:33.992 Workshop[15732:80b] Resetting plugins due to page load.
+2014-01-06 22:35:34.119 Workshop[15732:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:36:56.793 Workshop[16298:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:36:56.799 Workshop[16298:80b] Unlimited access to network resources
+2014-01-06 22:36:56.894 Workshop[16298:80b] Resetting plugins due to page load.
+2014-01-06 22:36:57.046 Workshop[16298:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:40:19.739 Workshop[16840:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:40:19.745 Workshop[16840:80b] Unlimited access to network resources
+2014-01-06 22:40:19.835 Workshop[16840:80b] Resetting plugins due to page load.
+2014-01-06 22:40:19.961 Workshop[16840:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-06 22:41:23.770 Workshop[17374:80b] Multi-tasking -> Device: YES, App: YES
+2014-01-06 22:41:23.777 Workshop[17374:80b] Unlimited access to network resources
+2014-01-06 22:41:23.871 Workshop[17374:80b] Resetting plugins due to page load.
+2014-01-06 22:41:23.994 Workshop[17374:80b] Finished load of: file:///Users/christophe/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/1FA75298-8304-4CCA-871D-8BBBF517D4CB/Workshop.app/www/index.html
+2014-01-07 09:26:43.320 Workshop[17374:80b] Received memory warning.
