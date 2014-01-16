@@ -27,7 +27,7 @@ var LocalStorageAdapter = function () {
 
         var deferred = $.Deferred(),
             employees = JSON.parse(window.localStorage.getItem("employees")),
-            employee = null;
+            employee = null,
             l = employees.length;
 
         for (var i = 0; i < l; i++) {
