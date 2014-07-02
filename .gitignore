@@ -1,4 +1,4 @@
 _site
 .idea
-.gitnore
+.gitignore
 server/node_modules
