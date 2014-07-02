@@ -1,0 +1,75 @@
+{% include bootstrap-header.html %}
+
+<div class="container">
+
+<div class="row">
+
+    <div class="col-xs-12 col-sm-8">
+        <h1>{{ page.title }}</h1>
+        <!--<hr/>-->
+        {{ content }}
+
+
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-xs-12">
+                <div id="disqus_thread"></div>
+                <script type="text/javascript">
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'salesforcedeveloperworkshop'; // required: replace example with your forum shortname
+
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                    })();
+                </script>
+                <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="col-xs-12 col-sm-4 right-nav">
+
+        <div class="panel panel-default">
+            <!-- Default panel contents -->
+            <div class="panel-heading" style="font-variant:small-caps;font-size: 18px;">modules</div>
+            <ol class="list-group">
+                <li><a href="create-cordova-project.html">Creating a Cordova Project</a></li>
+                <li><a href="build-cordova-project.html">Building a Cordova Project</a></li>
+                <li><a href="setup-files.html">Setting Up the Workshop Files</a></li>
+                <li><a href="data-storage.html">Choosing a Data Storage Strategy</a></li>
+                <li><a href="native-notification.html">Using Native Notification</a></li>
+                <li><a href="avoid-300ms-delay.html">Avoiding the 300ms Click Delay</a></li>
+                <li><a href="single-page-app.html">Setting Up a Single-Page Application</a></li>
+                <li><a href="handlebars-templates.html">Using Handlebars Templates</a></li>
+                <li><a href="creating-view-classes.html">Creating View Classes</a></li>
+                <li><a href="routing.html">Implementing View Routing</a></li>
+                <li><a href="hardware-acceleration.html">Using Hardware Acceleration</a></li>
+                <li><a href="geolocation.html">Using the Location API</a></li>
+                <li><a href="contacts-api.html">Using the Contacts API</a></li>
+                <li><a href="camera-api.html">Using the Camera API</a></li>
+            </ol>
+            <p></p>
+        </div>
+
+<a href="https://twitter.com/share" class="twitter-share-button" data-size="large"
+   data-url="http://ccoenraets.github.io/apache-cordova-tutorial"
+   data-text="Apache Cordova Tutorial #Cordova #PhoneGap">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+<a href="https://twitter.com/ccoenraets" class="twitter-follow-button" data-show-count="true"
+   data-size="large" data-lang="en">Follow
+    @ccoenraets</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    </div>
+
+</div>
+
+</div>
+
+{% include bootstrap-footer.html %}

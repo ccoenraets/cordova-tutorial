@@ -1,0 +1,37 @@
+{% include bootstrap-header.html %}
+
+<div class="jumbotron">
+    <div class="container">
+        <div class="row">
+            <div style="display:table">
+                <img src="images/cordova.png" style="max-height: 300px;border: none;float: left;margin-right: 30px;"/>
+                <div style="display: table-cell;vertical-align: middle;">
+                    <h1>Apache Cordova Tutorial</h1>
+                    <p>Fast Track to Mobile Application Development</p>
+                    <p><a class="btn btn-primary btn-lg"
+                          style="background-color: transparent;color: #00A1E1;margin-top: 8px;"
+                          href="create-cordova-project.html" role="button">Start Now</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div
+        style="background-color: #f4f4f4;margin-top: -30px;border-bottom: solid 1px #ddd;padding:12px 0 6px 0;margin-bottom:30px;">
+    <div class="container">
+        <div class="row" style="text-align: center">
+            <div style="margin-left: 30px;">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-size="large"
+               data-url="http://ccoenraets.github.io/apache-cordova-tutorial"
+               data-text="Apache Cordova Tutorial #Cordova #PhoneGap">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    {{ content }}
+</div>
+
+{% include bootstrap-footer.html %}
