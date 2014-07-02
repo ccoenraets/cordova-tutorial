@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href="assets/css/ratchet.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/pageslider.css" rel="stylesheet">
+</head>
+<body>
+
+<script id="home-tpl" type="text/template">
+    <header class="bar bar-nav">
+        <h1 class="title">Directory</h1>
+    </header>
+    <div class="bar bar-standard bar-header-secondary">
+        <input class='search-key' type="search"/>
+    </div>
+    <div class="content"></div>
+</script>
+
+<script id="employee-list-tpl" type="text/template">
+    {{#each this}}
+    <li class="table-view-cell media">
+        <a href="#employees/{{ id }}">
+            <img class="media-object pull-left" src="assets/pics/{{pic}}">
+            <div class="media-body">
+                {{firstName}} {{lastName}}
+                <p>{{title}}</p>
+            </div>
+        </a>
+    </li>
+    {{/each}}
+</script>
+
+<script id="employee-tpl" type="text/template">
+    <header class="bar bar-nav">
+        <a class="btn btn-link btn-nav pull-left" href="#">
+            <span class="icon icon-left-nav"></span>
+        </a>
+        <h1 class="title">Employee</h1>
+    </header>
+    <div class="content">
+        <div class="card">
+            <ul class="table-view">
+                <li class="table-view-cell media">
+                    <img class="media-object pull-left" src="assets/pics/{{pic}}">
+                    <div class="media-body">
+                        {{ firstName }} {{ lastName }}
+                        <p>{{ title }}</p>
+                    </div>
+                </li>
+                <li class="table-view-cell media">
+                    <a href="tel:{{ officePhone }}" class="push-right">
+                        <span class="media-object pull-left icon icon-call"></span>
+                        <div class="media-body">
+                            Call Office
+                            <p>{{ officePhone }}</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a href="tel:{{ cellPhone }}" class="push-right">
+                        <span class="media-object pull-left icon icon-call"></span>
+                        <div class="media-body">
+                            Call Cell
+                            <p>{{ cellPhone }}</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a href="sms:{{ cellPhone }}" class="push-right">
+                        <span class="media-object pull-left icon icon-sms"></span>
+                        <div class="media-body">
+                            SMS
+                            <p>{{ cellPhone }}</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a href="mailto:{{ email }}" class="push-right">
+                        <span class="media-object pull-left icon icon-mail"></span>
+                        <div class="media-body">
+                            Email
+                            <p>{{ email }}</p>
+                        </div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</script>
+
+<script src="cordova.js"></script>
+<script src="lib/fastclick.js"></script>
+<script src="lib/handlebars.js"></script>
+<script src="lib/jquery.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/backbone.js"></script>
+<script src="lib/pageslider.js"></script>
+<script src="js/models.js"></script>
+<script src="js/HomeView.js"></script>
+<script src="js/EmployeeListView.js"></script>
+<script src="js/EmployeeView.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
