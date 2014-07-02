@@ -6,9 +6,7 @@ title: Module 3&#58; Setting Up the Workshop Files
 
 1. Delete the contents of your project's **workshop/www** folder.
 
-1. Download the supporting files for this tutorial [here](https://github
-.com/ccoenraets/cordova-tutorial/archive/master
-.zip), or clone the repository:
+1. Download the supporting files for this tutorial [here](https://github.com/ccoenraets/cordova-tutorial/archive/master.zip), or clone the repository:
 
     ```
     git clone https://github.com/ccoenraets/cordova-tutorial
