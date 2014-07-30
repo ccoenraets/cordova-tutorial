@@ -28,7 +28,7 @@ HTML, JavaScript, and CSS. You will build an Apache Cordova (aka PhoneGap) Emplo
 
 ## Issues
 
-- Please create an issue [here](https://github.com/ccoenraets/apache-cordova-tutorial/issues) if you run
+- Please create an issue [here](https://github.com/ccoenraets/cordova-tutorial/issues) if you run
 into any problem or if you have a suggestion to improve this workshop.
 
 - You can also use the Comments section at the bottom of each module to ask a question or report a problem.
