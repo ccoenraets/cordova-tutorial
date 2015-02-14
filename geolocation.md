@@ -19,7 +19,7 @@ In this section, we add the ability to tag an employee with his/her location inf
 
   ```
   <li class="table-view-cell media">
-      <a hre="#" class="push-right add-location-btn">
+      <a href="#" class="push-right add-location-btn">
           <span class="media-object pull-left"></span>
           <div class="media-body">
               Add location
