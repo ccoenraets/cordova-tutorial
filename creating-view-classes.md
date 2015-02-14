@@ -74,7 +74,7 @@ It's time to provide the application with some structure. If we keep adding all 
 
 ## Step 2: Create the EmployeeList View
 
-1. Create a file named EnployeeListView.js in the js directory
+1. Create a file named EmployeeListView.js in the js directory
 
 2. Implement EmployeeListView as follows:
 
