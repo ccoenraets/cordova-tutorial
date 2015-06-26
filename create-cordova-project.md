@@ -71,8 +71,8 @@ title: Module 1&#58; Creating a Cordova Project
 1. Make sure you are in the **workshop** directory, and add basic plugins to your projects:
 
   ```
-  cordova plugin add org.apache.cordova.device
-  cordova plugin add org.apache.cordova.console
+  cordova plugin add cordova-plugin-device
+  cordova plugin add cordova-plugin-console
   ```
 
 1. Examine the directory structure under workshop.
